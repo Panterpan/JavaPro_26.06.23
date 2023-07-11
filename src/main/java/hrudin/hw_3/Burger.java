@@ -12,6 +12,7 @@ public class Burger {
         this.salad = salad;
         this.mayonnaise = mayonnaise;
     }
+
     public Burger(String bun, int meat, String cheese, String salad, boolean mayonnaise) {
         this (bun, cheese, salad, mayonnaise);
         this.meat = meat;

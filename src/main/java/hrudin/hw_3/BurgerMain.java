@@ -6,4 +6,5 @@ public class BurgerMain {
         Burger dieticBurger = new Burger("Булочка", "сир", "зелень");
         Burger doubleBurger = new Burger("Булочка",2,  "сир", "зелень", true);
     }
+
 }
