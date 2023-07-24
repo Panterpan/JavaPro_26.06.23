@@ -7,6 +7,10 @@ public class ArrayDataException extends Exception{
     ArrayDataException(int i, int j) {
         this.i = i;
         this.j = j;
+    }
 
+    @Override
+    public String getMessage() {
+        return "Помилка в комірці: " + i + "*" + j;
     }
 }
